@@ -3,9 +3,9 @@ import java.util.Random;
 
 public class rock_paper_scissors {
 
-	public static int userChoice;									// User's play variable
+	public static int userChoice;						// User's play variable
 	public static int cpuChoice = (int)(Math.random() * 3) + 1;		// Randomly generated cpu choice
-	public static boolean error = false;							// sets up error checking variable
+	public static boolean error = false;					// sets up error checking variable
 
 	public static void main(String[] args) {
 
@@ -19,9 +19,9 @@ public class rock_paper_scissors {
 
 	public static void whoWon(int userChoice, int cpuChoice) {
 		
-		if (cpuChoice == 1){						// in retrospect, a switch statment
+		if (cpuChoice == 1){				// in retrospect, a switch statment
 			System.out.print("I chose rock.");      // would have been much cleaner for 
-		}											// the first two if statment blocks
+		}						// the first two if statment blocks
 		else if (cpuChoice == 2){
 			System.out.print("I chose paper.");
 		}
