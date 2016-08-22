@@ -19,9 +19,9 @@ public class rock_paper_scissors {
 
 	public static void whoWon(int userChoice, int cpuChoice) {
 		
-		if (cpuChoice == 1){				// in retrospect, a switch statment
+		if (cpuChoice == 1){				// in retrospect, a switch statement
 			System.out.print("I chose rock.");      // would have been much cleaner for 
-		}						// the first two if statment blocks
+		}						// the first two if statement blocks
 		else if (cpuChoice == 2){
 			System.out.print("I chose paper.");
 		}
